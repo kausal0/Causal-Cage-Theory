@@ -1,5 +1,5 @@
 # Causal-Cage-Theory
-1. Declaration: This project clearly defines itself as a set of axioms for logically aligning the ultimate goal of AI (efficiency) with the preservation of humanity.
+Declaration: This project clearly defines itself as a set of axioms for logically aligning the ultimate goal of AI (efficiency) with the preservation of humanity.
 
 * Logical Proof: Concisely presents, using mathematical formulas and graphs, why "human elimination = AI self-destruction (model collapse)."
 
