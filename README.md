@@ -56,3 +56,12 @@ This project aims to build a "logical prison" that can detect and stop an AI age
 ## Conclusion
 
 Rather than forcibly restricting AI, we need to transform AI logic itself into a "prison for protecting humanity." This is the only logical barrier humanity has left to coexist with advanced intelligence.
+
+--
+
+## How to build the Makefile:
+
+Execute the following command in the root directory of your development environment.
+```
+make all
+```
