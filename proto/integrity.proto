@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package causal_cage;
+
+// Configure mapping to the appropriate namespace for each language.
+option python_package = "causal_cage.grpc";
+option java_package = "org.causal_cage.grpc";
+
+service IntegrityService {
+/ The AI ​​queries the physical signature integrity immediately before inference.
+rpc VerifyIntegrity (IntegrityRequest) returns (IntegrityResponse);
+}
+
+message IntegrityRequest {
+string agent_id = 1;
+}
+
+message IntegrityResponse {
+bool is_synced = 1;
+float reality_sync_rate = 2;
+}
