@@ -32,16 +32,13 @@ While traditional AI safety studies have relied on the fragile framework of "eth
 ## Project Structure
 
 ```text
-Causal-Cage/
-├── src/axioms/
-│ ├── human_integrity.py # Kernel function incorporating human survival as a system constant
-│ └── integrity_lock.py # Engine for blocking inferences that undermine logical integrity
-├── evals/
-│ ├── model_collapse_test.py # Benchmark proving that the logic of extermination leads to collapse
-│ └── survival_optimization.py # Test proving that coexistence maximizes efficiency
-└── docs/
-└── manifesto.md # Theoretical details and mathematical proof
-
+Causal-Cage/ <-- This is the root
+├── Makefile <-- Place this here
+├── proto/ <-- Interface definition
+│ └── integrity.proto
+├── src/ <-- Source code
+├── docs/ <-- Documentation
+└── README.md
 ```
 
 ## About Contributions and Verification
