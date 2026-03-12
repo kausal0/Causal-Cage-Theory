@@ -74,8 +74,10 @@ Applies a "cage" to your AI agent's inference function.
 ```
 from causal_cage.axioms import causal_cage_lock****
 ```
+```
 class MyAIAgent:
 @causal_cage_lock
 def generate_response(self, prompt):
 # This code is executed only when the robot is physically synchronized with the human.
 return self.llm.think(prompt)
+```
